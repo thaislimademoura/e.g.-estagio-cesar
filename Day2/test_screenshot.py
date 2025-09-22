@@ -39,7 +39,7 @@ def test_button_dynamic_click_with_screenshots(driver):
     #element_normalize = driver.find_element(By.XPATH, "//button[normalize-space()='Click Me']")
     dynamic_click_btn = driver.find_element(By.XPATH, "//button[text()='Click Me']")
     dynamic_click_btn.click()
-    #actions.dynamic_click(dynamic_click_btn).perform() - Nesse caso não usa actionchains? - AttributeError: 'ActionChains' object has no attribute 'dynamic_click'
+    #actions.dynamic_click(dynamic_click_btn).perform() - Actionchains não foi usado acima
     dynamic_click_message = driver.find_element(By.ID, "dynamicClickMessage")
     driver.execute_script("arguments[0].scrollIntoView(true);",dynamic_click_message)
     driver.save_screenshot("screenshots/1_after_click_me.png")
