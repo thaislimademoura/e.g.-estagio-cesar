@@ -1,0 +1,12 @@
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip' - 17:42:40
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip' finished in 37.42 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip' - 17:43:18
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip' finished in 16.88 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip' - 17:43:53
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip' finished in 7.40 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip' - 17:44:00
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip' finished in 7.55 seconds.
