@@ -3,7 +3,7 @@ from pages.tool_tips_page import ToolTipsPage
 from selenium.webdriver.common.by import By
 import time
 
-
+@pytest.mark.widgets
 def test_button_tooltip(driver, test_data):
     tool_tips_page = ToolTipsPage(driver)
     tool_tips_page.navigate(test_data["tool_tips_url"])
@@ -13,6 +13,7 @@ def test_button_tooltip(driver, test_data):
     tooltip_text = tool_tips_page.get_tooltip_text()
     assert tooltip_text == test_data["tool_tip_button_text"]
 
+@pytest.mark.widgets
 def test_field_tooltip(driver, test_data):
     tool_tips_page = ToolTipsPage(driver)
     tool_tips_page.navigate(test_data["tool_tips_url"])
