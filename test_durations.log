@@ -10,3 +10,75 @@
 
 [START] Test 'tests/test_tool_tips.py::test_field_tooltip' - 17:44:00
 [END] Test 'tests/test_tool_tips.py::test_field_tooltip' finished in 7.55 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 20:56:09
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 15.49 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:02:06
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 9.76 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:06:42
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 7.22 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:19:20
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 13.89 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:26:22
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 14.53 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:32:56
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 15.63 seconds.
+
+[START] Test 'Day4/test_menu.py::test_main_item_1_button' - 21:37:28
+[END] Test 'Day4/test_menu.py::test_main_item_1_button' finished in 28.78 seconds.
+
+[START] Test 'Day4/test_progress_bar.py::test_modal_dialogs' - 23:22:18
+[END] Test 'Day4/test_progress_bar.py::test_modal_dialogs' finished in 13.06 seconds.
+
+[START] Test 'Day4/test_progress_bar.py::test_modal_dialogs' - 23:22:52
+[END] Test 'Day4/test_progress_bar.py::test_modal_dialogs' finished in 6.65 seconds.
+
+[START] Test 'Day4/test_progress_bar.py::test_modal_dialogs' - 23:28:09
+[END] Test 'Day4/test_progress_bar.py::test_modal_dialogs' finished in 9.60 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 23:29:32
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 13.48 seconds.
+
+[START] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' - 00:05:31
+[END] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' finished in 3.05 seconds.
+
+[START] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' - 00:10:54
+[END] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' finished in 7.61 seconds.
+
+[START] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' - 00:13:59
+[END] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' finished in 7.73 seconds.
+
+[START] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' - 00:15:18
+[END] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' finished in 7.72 seconds.
+
+[START] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' - 00:20:07
+[END] Test 'tests/test_modal_dialogs.py::test_modal_dialogs' finished in 7.26 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:20:41
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 11.25 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:22:12
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.27 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:23:59
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 13.20 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:24:36
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 17.12 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:30:13
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 18.76 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:34:33
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 8.46 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:35:46
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.95 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 00:36:22
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.83 seconds.
