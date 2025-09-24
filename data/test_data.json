@@ -1,5 +1,8 @@
 {
   "tool_tips_url": "https://demoqa.com/tool-tips",
   "tool_tip_button_text": "You hovered over the Button",
-  "tool_tip_field_text": "You hovered over the text field"
+  "tool_tip_field_text": "You hovered over the text field",
+  "modal_dialogs_url": "https://demoqa.com/modal-dialogs",
+  "modal_dialogs_small_message": "This is a small modal. It has very less content",
+  "modal_dialogs_large_message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 }
