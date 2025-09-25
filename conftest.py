@@ -3,6 +3,7 @@ from selenium import webdriver
 import json
 import time
 from pathlib import Path
+import os, pytest_html
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome", help="browser to execute tests (chrome or firefox)")
@@ -48,3 +49,23 @@ def pytest_runtest_teardown(item):
     # salva em arquivo
     with LOG_FILE.open("a", encoding="utf-8") as f:
         f.write(msg + "\n")
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+    extra = getattr(report, "extra", [])
+    if report.when == "call" and report.failed:
+        # Create screenshots directory if it doesn't exist
+        if not os.path.exists("screenshots"):
+            os.makedirs("screenshots")
+        # Take screenshot
+        driver = item.funcargs['driver']
+        screenshot_file = os.path.join("screenshots", f"{item.name}_error.png")
+        driver.save_screenshot(screenshot_file)
+        # Add screenshot to the HTML report
+        if screenshot_file:
+            html = f'<div><img src="{screenshot_file}" alt="screenshot" style="width:304px;height:228px;" ' \
+           f'onclick="window.open(this.src)" align="right"/></div>'
+            extra.append(pytest_html.extras.html(html))
+    report.extra = extra
