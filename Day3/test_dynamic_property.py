@@ -18,4 +18,5 @@ def test_dinamic_button(driver):
     visible_After_button = wait.until(
         EC.element_to_be_clickable((By.ID, "visibleAfter"))
     )
+    driver.execute_script("arguments[0].scrollIntoView(true);", visible_After_button)
     visible_After_button.click()
