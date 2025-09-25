@@ -5,10 +5,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 def test_modal_dialogs(driver):
     driver.get("https://demoqa.com/modal-dialogs")
+    wait = WebDriverWait(driver, 10)
 
     small_modal_click_btn = driver.find_element(By.ID, "showSmallModal")
     small_modal_click_btn.click()
-    small_modal_click_message = driver.find_element(By.CSS_SELECTOR, ".modal-body")
+
+    small_modal_click_message = wait.until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, ".modal-body"))
+    )
+
+    # small_modal_click_message = driver.find_element(By.CSS_SELECTOR, ".modal-body")
     assert "This is a small modal. It has very less content" in small_modal_click_message.text
 
     small_close_btn = driver.find_element(By.ID, "closeSmallModal")
@@ -19,12 +25,12 @@ def test_modal_dialogs(driver):
     large_modal_click_message = driver.find_element(By.CSS_SELECTOR, ".modal-body")
     assert "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." in large_modal_click_message.text
     
-    wait = WebDriverWait(driver, 10)
+    
     
     large_modal_click_message = wait.until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, ".modal-body"))
     )
     large_modal_click_message.is_displayed()
-    
+
     large_close_btn = driver.find_element(By.ID, "closeLargeModal")
     large_close_btn.click()
