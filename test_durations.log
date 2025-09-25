@@ -274,3 +274,99 @@
 
 [START] Test 'tests/test_tool_tips.py::test_field_tooltip' - 11:14:42
 [END] Test 'tests/test_tool_tips.py::test_field_tooltip' finished in 17.22 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 08:23:18
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 13.13 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 08:23:31
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 9.09 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip' - 08:27:08
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip' finished in 7.96 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip' - 08:27:16
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip' finished in 7.18 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:11:45
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 3.58 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:11:49
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 1.93 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:16:53
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.09 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:16:55
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 1.93 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:19:16
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.11 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:19:18
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 1.96 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:20:26
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.03 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:20:28
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 2.00 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:22:42
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.78 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:22:45
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 2.03 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:24:41
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 3.25 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:24:44
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 1.94 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:25:45
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.12 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:25:47
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 2.00 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:27:59
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.12 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:28:01
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 2.08 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:29:05
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 2.08 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:29:07
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 1.92 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' - 09:29:29
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data0]' finished in 8.29 seconds.
+
+[START] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' - 09:29:38
+[END] Test 'tests/test_practice_form.py::test_fill_practice_form[data1]' finished in 8.57 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:02:33
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 8.03 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:03:15
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.51 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:04:02
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.68 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:07:35
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 8.54 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:10:05
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.45 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:11:13
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 7.54 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:27:33
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 9.57 seconds.
+
+[START] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' - 10:29:55
+[END] Test 'Day4/test_modal_dialogs.py::test_modal_dialogs' finished in 6.83 seconds.
