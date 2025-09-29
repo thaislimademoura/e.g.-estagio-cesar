@@ -1,0 +1,7 @@
+browser,test_case_name,status,timestamp
+Chrome,test_double_click_button[chrome],Passed,5.6886s
+Chrome,test_right_click_button[chrome],Passed,5.3378s
+Chrome,test_dynamic_click_button[chrome],Passed,7.2298s
+Firefox,test_double_click_button[firefox],Passed,8.2807s
+Firefox,test_right_click_button[firefox],Passed,6.8508s
+Firefox,test_dynamic_click_button[firefox],Passed,9.8054s
