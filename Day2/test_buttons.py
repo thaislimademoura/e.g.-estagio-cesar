@@ -32,3 +32,4 @@ def test_dynamic_click_button(driver):
     dynamic_click_btn.click()
     dynamic_click_message = driver.find_element(By.ID, "dynamicClickMessage")
     assert "You have done a dynamic click" in dynamic_click_message.text
+    time.sleep(3)
