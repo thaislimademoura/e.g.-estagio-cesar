@@ -1,0 +1,11 @@
+Criar novo caso de teste manual
+Criar page objects model
+criar novo script de automação 
+- Navegar para a home
+- Clicar no menu Alert
+- Interagir com botões
+- Validar cada alert 
+
+-- 1 page objects
+-- 1 novo teste
+--- 4 métodos, 1 para cada Alert
