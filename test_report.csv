@@ -1,3 +1,3 @@
 browser,test_case_name,status,timestamp
-Chrome,test_navigate_to_home_page[chrome],Passed,10.8798s
-Firefox,test_navigate_to_home_page[firefox],Passed,11.1164s
+Chrome,test_navigate_to_widgets_menu_page[chrome],Passed,15.5235s
+Firefox,test_navigate_to_widgets_menu_page[firefox],Passed,112.8548s
