@@ -1013,3 +1013,176 @@
 
 [START] Test 'tests/test_alert.py::test_navigate_to_home_page[firefox]' - 21:45:31
 [END] Test 'tests/test_alert.py::test_navigate_to_home_page[firefox]' finished in 17.31 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:03:03
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 7.74 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:03:11
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 7.01 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:03:38
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 2.16 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:03:40
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 4.77 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:07:44
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 2.75 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:07:46
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 5.03 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:08:31
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 10.16 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:08:41
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 14.90 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:09:14
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.42 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:09:22
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.49 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:26:07
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 12.39 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:26:20
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 17.05 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:31:13
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.96 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:31:22
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.45 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:32:16
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.98 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:32:25
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.17 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:34:47
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 7.31 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:34:54
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:36:24
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.16 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:36:32
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 18.55 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:37:31
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.27 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:37:40
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.31 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:39:41
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.51 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:39:50
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 16.05 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 09:46:06
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 10.29 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 09:46:16
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 13.01 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 10:18:05
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 10.27 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 10:18:16
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 13.49 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 10:19:14
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 8.97 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 10:19:23
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.31 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 10:23:02
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 19.76 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 10:23:22
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 12.64 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 10:23:52
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 3.42 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 10:23:55
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 5.37 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' - 11:23:45
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' - 11:23:45
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' finished in 10.99 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' - 11:23:56
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' finished in 18.86 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' - 11:24:03
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' finished in 14.47 seconds.
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' finished in 14.51 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' - 11:24:34
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' - 11:24:34
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' finished in 8.06 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' - 11:24:42
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' finished in 14.76 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' - 11:24:49
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' finished in 13.11 seconds.
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' finished in 12.24 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' - 11:33:43
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' - 11:33:43
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[chrome-chrome]' finished in 7.80 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' - 11:33:51
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[chrome-chrome]' finished in 14.61 seconds.
+
+[START] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' - 11:33:58
+[END] Test 'tests/test_tool_tips.py::test_button_tooltip[firefox-chrome]' finished in 13.29 seconds.
+[END] Test 'tests/test_tool_tips.py::test_field_tooltip[firefox-chrome]' finished in 13.39 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:10:09
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 14.60 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:10:24
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 29.78 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:18:27
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 71.13 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:19:38
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 50.52 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:20:55
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 17.68 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:21:13
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 86.01 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:25:10
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 21.44 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:25:31
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 66.33 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:26:51
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 55.14 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:27:46
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 27.32 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' - 17:33:15
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[chrome]' finished in 17.47 seconds.
+
+[START] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' - 17:33:32
+[END] Test 'tests/widgets_menu.py::test_navigate_to_widgets_menu_page[firefox]' finished in 118.32 seconds.
