@@ -4,8 +4,6 @@ from appium.options.common.base import AppiumOptions
 from appium.webdriver.common.appiumby import AppiumBy
 
 expected_title = "Sauce Labs Backpack (orange)"
-actual_qnt_item = 2
-
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -37,41 +35,43 @@ assert actual_title == expected_title, f"Expected title to be '{expected_title}'
 
 # assert minus
 
-before_minus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
+qnt_box_before = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
 
 decrease_item_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/minusIV")
 decrease_item_btn.click()
 time.sleep(2)
 
-after_minus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
+qnt_box_after_minus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
 
-assert before_minus - after_minus == 1
+assert qnt_box_after_minus == qnt_box_before -1
 
-# -
+# assert cart is not enabled
 
 add_to_cart_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/cartBt")
 assert not add_to_cart_btn.is_enabled()
 
 # assert plus
 
-before_minus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
+qnt_box_before_plus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
 
-add_more_item_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/plusIV")
-add_more_item_btn.click()
+plus_item_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/plusIV")
+plus_item_btn.click()
 time.sleep(2)
 
-after_minus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
+qnt_box_after_plus = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
 
-assert before_minus + after_minus == 1
+assert qnt_box_after_plus == qnt_box_before_plus +1
 
-add_to_cart_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/cartBt")
+#add_to_cart_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/cartBt")
 assert add_to_cart_btn.is_enabled()
 
 # add another unit
-add_more_item_btn.click()
-actual_qnt_item_box = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV")
-assert actual_qnt_item == 2
+plus_item_btn.click()
+qnt_item_box_actual = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
+assert qnt_item_box_actual == 2
+add_to_cart_btn.click()
 time.sleep(2)
+
 
 
 
