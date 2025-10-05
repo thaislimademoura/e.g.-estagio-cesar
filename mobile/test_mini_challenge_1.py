@@ -4,6 +4,7 @@ from appium.options.common.base import AppiumOptions
 from appium.webdriver.common.appiumby import AppiumBy
 
 expected_title = "Sauce Labs Backpack (orange)"
+expected_my_cart_title = "My Cart"
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -70,6 +71,17 @@ plus_item_btn.click()
 qnt_item_box_actual = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/noTV").text)
 assert qnt_item_box_actual == 2
 add_to_cart_btn.click()
+number_cart_circle = int(driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/cartTV").text)
+assert number_cart_circle == qnt_item_box_actual
+
+# open my cart screen
+cart_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/cartIV")
+cart_btn.click()
+
+actual_my_cart_title = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.saucelabs.mydemoapp.android:id/productTV")').text
+time.sleep(2)
+assert actual_title == expected_my_cart_title, f"Expected title to be '{expected_my_cart_title}', but found '{actual_my_cart_title}'"
+
 time.sleep(2)
 
 
