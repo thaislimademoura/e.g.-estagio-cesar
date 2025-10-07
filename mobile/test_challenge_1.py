@@ -173,7 +173,6 @@ security_code_input = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.
 time.sleep(1)
 checkbox = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/billingAddressCB")
 assert checkbox.get_attribute("checked") == "true"
-# assert checkbox.is_selected()
 
 # proceed to review
 to_payment_btn = driver.find_element(AppiumBy.ID, "com.saucelabs.mydemoapp.android:id/paymentBtn").click()
