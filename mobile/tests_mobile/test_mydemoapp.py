@@ -1,6 +1,8 @@
 import pytest
 from pages_mobile.home_page import HomePage
 from pages_mobile.product_page import ProductPage
+from pages_mobile.my_cart_page import MyCartPage
+from pages_mobile.login_page import LoginPage
 
 # Import other page objects as needed
 
@@ -8,7 +10,8 @@ def test_product_selection(driver):
     # Initialize page objects with the driver provided by the fixture
     home_page = HomePage(driver)
     product_page = ProductPage(driver)
-    # product_page = ProductPage(driver)
+    my_cart_page = MyCartPage(driver)
+    login_page = LoginPage(driver)
 
     # Perform actions using page object methods
     assert home_page.get_home_page_title() == "Products"
@@ -37,12 +40,42 @@ def test_product_selection(driver):
     
     # 8 - Add another unit, make sure you have 2 units and click on the Add to cart button.
     product_page.select_increase_items()
-    assert product_page.get_qnt_items_txt() == "2"
+    assert product_page.get_qnt_items() == 2
     product_page.add_to_cart_click()
 
     # 9 - Validate that a circle has appeared in the cart icon informing you of the exact number
     assert product_page.get_cart_icon() == True
-    assert product_page.get_cart_icon_number() == product_page.get_qnt_items_txt()
+    assert product_page.get_cart_icon_number() == product_page.get_qnt_items()
 
-    ####################################################################
+    # 10 - Open the cart page by clicking on the cart icon
+    product_page.cart_click()
 
+    # 11 - Validate that the My Cart screen has been opened
+    assert my_cart_page.get_product_page_title() == "My Cart"
+
+    # 12 - Validate that your product is correct
+    assert my_cart_page.get_unit_product_title() == "Sauce Labs Backpack (orange)"
+
+    # 13 - Validate that the unit price is as expected
+    assert my_cart_page.get_unit_price() == "$ 29.99"
+
+    # 14 - Validate that the quantity is correct in the field below the product photo 
+    assert my_cart_page.get_qnt_items() == 2
+
+    # 15 - Validate that the quantity is correct in the Total: x Items field
+
+    assert my_cart_page.get_total_items() == "2 Items"
+
+    # 16 - Validate that the total value of the purchase is as expected for 2 units of the product
+    assert my_cart_page.get_total_price_calculated() == True
+
+    # 17 - Click on the Proceed To Checkout button
+    my_cart_page.proceed_checkout_button_click()
+
+    # 18 - Validate that the Login screen has been displayed
+    assert login_page.get_login_page_title() == "Login"
+
+    #####################################################################
+
+    # 19 - Try to log in without entering Username and Password and validate the error in the Username field
+    # 20 - Try to log in without entering Password and validate the error in the Password field
