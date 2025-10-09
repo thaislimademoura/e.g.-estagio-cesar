@@ -1,11 +1,11 @@
 from appium.webdriver.common.appiumby import AppiumBy
 from pages_mobile.base_page import BasePage
+
 class ProductPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.product_title_id = "com.saucelabs.mydemoapp.android:id/productTV"
         self.qnt_items_id = "com.saucelabs.mydemoapp.android:id/noTV"
-        #self.qnt_after_decrease_id = "com.saucelabs.mydemoapp.android:id/noTV"
         self.decrease_button_id = "com.saucelabs.mydemoapp.android:id/minusIV"
         self.increase_button_id = "com.saucelabs.mydemoapp.android:id/plusIV"
         self.add_to_cart_button_id = "com.saucelabs.mydemoapp.android:id/cartBt"
@@ -19,10 +19,6 @@ class ProductPage(BasePage):
     def get_qnt_items(self):
         self.find_element(AppiumBy.ID, self.qnt_items_id)
         return int(self.get_element_text(AppiumBy.ID, self.qnt_items_id))
-    
-    def get_qnt_items_txt(self):
-        self.find_element(AppiumBy.ID, self.qnt_items_id)
-        return self.get_element_text(AppiumBy.ID, self.qnt_items_id)
 
     def select_decrease_items(self):
         self.find_element(AppiumBy.ID, self.decrease_button_id)
@@ -44,7 +40,10 @@ class ProductPage(BasePage):
     
     def get_cart_icon_number(self):
         self.find_element(AppiumBy.ID, self.cart_icon_number_id)
-        return self.get_element_text(AppiumBy.ID, self.cart_icon_number_id)
+        return int(self.get_element_text(AppiumBy.ID, self.cart_icon_number_id))
+    
+    def cart_click(self):
+        self.click_element(AppiumBy.ID, self.cart_icon_id)
         
 
 
