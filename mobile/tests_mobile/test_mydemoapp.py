@@ -3,15 +3,19 @@ from pages_mobile.home_page import HomePage
 from pages_mobile.product_page import ProductPage
 from pages_mobile.my_cart_page import MyCartPage
 from pages_mobile.login_page import LoginPage
+from pages_mobile.address_page import AddressPage
+from pages_mobile.payment_page import PaymentPage
 
 # Import other page objects as needed
 
-def test_product_selection(driver):
+def test_product_selection(driver, load_data_capabilities):
     # Initialize page objects with the driver provided by the fixture
     home_page = HomePage(driver)
     product_page = ProductPage(driver)
     my_cart_page = MyCartPage(driver)
     login_page = LoginPage(driver)
+    address_page = AddressPage(driver)
+    payment_page = PaymentPage(driver)
 
     # Perform actions using page object methods
     assert home_page.get_home_page_title() == "Products"
@@ -75,7 +79,28 @@ def test_product_selection(driver):
     # 18 - Validate that the Login screen has been displayed
     assert login_page.get_login_page_title() == "Login"
 
-    #####################################################################
-
     # 19 - Try to log in without entering Username and Password and validate the error in the Username field
+    assert login_page.error_username_message()
+    
     # 20 - Try to log in without entering Password and validate the error in the Password field
+    assert login_page.error_password_message()
+
+    # 21 - Capture the first Username from the Usernames list at the bottom of the screen and enter this value in the Username field
+    assert login_page.username_input()
+   
+    # 22 - Capture the Password from the Password list at the bottom of the screen and enter this value in the Password field
+    assert login_page.password_input()
+    
+    # 23 - Click on the Login button
+    login_page.login_complete_click()
+
+    # 24 - Validate that the Checkout, Shipment Address screen has been displayed
+    assert address_page.get_address_page_title() == "Enter a shipping address"
+
+    # 25 - Enter information in all the form fields and proceed to payment.
+    address_page.fill_the_form_address(load_data_capabilities)
+
+    address_page.to_payment_button_click()
+
+    # 27 - Validate that the Checkout, Payment screen has been displayed
+    assert payment_page.get_payment_page_title() == "Enter a payment method"
