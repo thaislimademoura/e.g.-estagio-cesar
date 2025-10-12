@@ -30,3 +30,6 @@ class BasePage:
             return self.find_element(by, locator).is_enabled()
         except:
             return False
+        
+    def clear_field(self, by, locator):
+        self.find_element(by, locator).clear()
