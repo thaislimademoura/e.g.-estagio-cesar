@@ -6,6 +6,7 @@ from pages_mobile.login_page import LoginPage
 from pages_mobile.address_page import AddressPage
 from pages_mobile.payment_page import PaymentPage
 from pages_mobile.review_page import ReviewPage
+from pages_mobile.checkout_complete import CheckoutPage
 
 # Import other page objects as needed
 
@@ -18,6 +19,7 @@ def test_product_selection(driver, load_data_capabilities):
     address_page = AddressPage(driver)
     payment_page = PaymentPage(driver)
     review_page = ReviewPage(driver)
+    checkout_page = CheckoutPage(driver)
 
     #form_data = load... ["valid_user"]["backpack"]
 
@@ -111,8 +113,6 @@ def test_product_selection(driver, load_data_capabilities):
 
     # 28 - Enter the values in the corresponding fields and keep the check-box selected
     payment_page.fill_the_form_payment(load_data_capabilities)
-    # >>>>>>>>>>>> fazer o assert do checkbox <<<<<<<<<<
-
 
     # 31 - Proceed to the review by clicking on the Review Order button
     payment_page.to_payment_button_click()
@@ -141,6 +141,14 @@ def test_product_selection(driver, load_data_capabilities):
     review_page.calculated_total_price(load_data_capabilities)
 
     # 36 - Click on the Place Order button
+    review_page.place_order_button_click()
+
     # 37 - Validate that the Checkout Complete screen has been displayed
+    checkout_page.get_checkout_complete_page_title()
+
     # 38 - Click on the Continue Shopping button
+    checkout_page.continue_shopping_button_click()
+
     # 39 - Validate that the Products screen has been displayed and that the cart is empty.
+    product_page.get_product_page_title()
+    product_page.assert_cart_is_empty()
