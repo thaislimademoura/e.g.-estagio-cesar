@@ -5,6 +5,7 @@ from pages_mobile.my_cart_page import MyCartPage
 from pages_mobile.login_page import LoginPage
 from pages_mobile.address_page import AddressPage
 from pages_mobile.payment_page import PaymentPage
+from pages_mobile.review_page import ReviewPage
 
 # Import other page objects as needed
 
@@ -16,6 +17,9 @@ def test_product_selection(driver, load_data_capabilities):
     login_page = LoginPage(driver)
     address_page = AddressPage(driver)
     payment_page = PaymentPage(driver)
+    review_page = ReviewPage(driver)
+
+    #form_data = load... ["valid_user"]["backpack"]
 
     # Perform actions using page object methods
     assert home_page.get_home_page_title() == "Products"
@@ -104,3 +108,39 @@ def test_product_selection(driver, load_data_capabilities):
 
     # 27 - Validate that the Checkout, Payment screen has been displayed
     assert payment_page.get_payment_page_title() == "Enter a payment method"
+
+    # 28 - Enter the values in the corresponding fields and keep the check-box selected
+    payment_page.fill_the_form_payment(load_data_capabilities)
+    # >>>>>>>>>>>> fazer o assert do checkbox <<<<<<<<<<
+
+
+    # 31 - Proceed to the review by clicking on the Review Order button
+    payment_page.to_payment_button_click()
+
+    # 32 - Validate that the Checkout, Review your order screen has been displayed.
+    assert review_page.get_review_page_title() == "Review your order"
+
+    # 33 - Validate that the Deliver Address and Payment Method information is correct
+    review_page.validade_name_output(load_data_capabilities)
+    review_page.validate_address_output(load_data_capabilities)
+    review_page.validade_city_output(load_data_capabilities)
+    review_page.validade_state_output(load_data_capabilities)
+    review_page.validade_country_output(load_data_capabilities)
+    review_page.validade_zipcode_output(load_data_capabilities)
+
+    review_page.validate_card_name_output(load_data_capabilities)
+    review_page.validate_card_number_output(load_data_capabilities)
+
+    # 34 - Validate the product's unit information such as Name and Value
+    review_page.validate_product_title(load_data_capabilities)
+    review_page.validate_product_price(load_data_capabilities)
+
+    review_page.validate_exp_date(load_data_capabilities)
+
+    # 35 - Validate that the total value of the items plus the Freight value is correct.
+    review_page.calculated_total_price(load_data_capabilities)
+
+    # 36 - Click on the Place Order button
+    # 37 - Validate that the Checkout Complete screen has been displayed
+    # 38 - Click on the Continue Shopping button
+    # 39 - Validate that the Products screen has been displayed and that the cart is empty.
