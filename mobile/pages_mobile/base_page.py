@@ -33,4 +33,11 @@ class BasePage:
         
     def clear_field(self, by, locator):
         self.find_element(by, locator).clear()
+
+    def is_element_present(self, by, locator):
+        try:
+            self.driver.find_element(by, locator)
+            return True
+        except:
+            return False
         

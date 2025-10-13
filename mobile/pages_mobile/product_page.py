@@ -11,7 +11,9 @@ class ProductPage(BasePage):
         self.add_to_cart_button_id = "com.saucelabs.mydemoapp.android:id/cartBt"
         self.cart_icon_id = "com.saucelabs.mydemoapp.android:id/cartIV"
         self.cart_icon_number_id = "com.saucelabs.mydemoapp.android:id/cartTV"
-    
+        self.cart_empty_id = "com.saucelabs.mydemoapp.android:id/cartIV"
+        self.cart_full_id = 'new UiSelector().resourceId("com.saucelabs.mydemoapp.android:id/cartTV")'
+
     def get_product_page_title(self):
         self.find_element(AppiumBy.ID, self.product_title_id)
         return self.get_element_text(AppiumBy.ID, self.product_title_id)
@@ -44,9 +46,12 @@ class ProductPage(BasePage):
     
     def cart_click(self):
         self.click_element(AppiumBy.ID, self.cart_icon_id)
-        
 
 
+    def assert_cart_is_empty(self):
+        cart_empty = self.find_element(AppiumBy.ID, self.cart_empty_id)
+        cart_full_present = self.is_element_present(AppiumBy.ANDROID_UIAUTOMATOR, self.cart_full_id)
+        assert cart_empty.is_displayed() and not cart_full_present
        
 
       

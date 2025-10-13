@@ -18,7 +18,7 @@ class ReviewPage(BasePage):
         self.delivery_value_id = "com.saucelabs.mydemoapp.android:id/amountTV"
         self.qnt_items_id = "com.saucelabs.mydemoapp.android:id/itemNumberTV"
         self.unit_price_id = "com.saucelabs.mydemoapp.android:id/priceTV"
-
+        self.place_order_button_id = "com.saucelabs.mydemoapp.android:id/paymentBtn"
 
 
     def get_review_page_title(self):
@@ -99,4 +99,5 @@ class ReviewPage(BasePage):
         assert final_value == delivery + (qnt_items * unit_price)
 
         
-    
+    def place_order_button_click(self):
+        self.click_element(AppiumBy.ID, self.place_order_button_id)
