@@ -10,11 +10,13 @@
     "zip_code": "12345",
     "card_number": "12345678",
     "secure_code": "123",
-    "exp_date": "01/01"
+    "exp_date": "01/01",
+    "final_exp_date": "Exp: 01/01"
 },
 
 "products" : {
     "name": "Sauce Labs Backpack (orange)",
-    "price": "$ 29.99"
+    "price": "$ 29.99",
+    "unit_price_float": 29.99
 }
 }
