@@ -33,3 +33,4 @@ class BasePage:
         
     def clear_field(self, by, locator):
         self.find_element(by, locator).clear()
+        
